@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="wiisoft"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css">
+<link rel="icon" href="img/favicon.ico"/>
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/main.css">
+<title>WikiSoft</title>
+</head>
+<body>
+    <div class="container">
+        <div class="col-group">
+            <div class="row">
+                <div class="header">
+                    <a href="" class="reload"><img class="logo" src="img/favicon.ico"></a>
+                    <form class="search-form js-search-form">
+                        <input class="search-input js-search-input" placeholder="Reference Search Here" type="search"  autocomplete="url">
+                    </form>
+                    <p class="empty-field"></p>
+                </div>
+            </div>
+            <div class="col search-indicator">
+                <div class="sk-chase js-spinner ">
+                    <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot"></div>
+                        <div class="sk-chase-dot">loading...</div>
+                </div>
+            </div>
+        </div>
+
+        <section class="search-result js-search-result"></section>
+    </div>
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>
